@@ -19,7 +19,8 @@ class LoginScreen extends React.Component {
       },
       logo: {
         maxWidth: dimensions.width / 2,
-        maxHeight: dimensions.height / 4
+        maxHeight: dimensions.height / 5,
+        marginTop: 100
       },
       register: {
         fontFamily: 'nunito-regular',
@@ -29,7 +30,8 @@ class LoginScreen extends React.Component {
       forgotPassword: {
         fontFamily: 'nunito-light',
         color: '#FFF',
-        fontSize: 20
+        fontSize: 20,
+        marginBottom: 35
       }
     }
     return (
